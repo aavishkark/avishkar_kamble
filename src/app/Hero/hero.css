@@ -1,0 +1,70 @@
+.hero-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.heroinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.hero-container > div {
+    margin-bottom: 20px;
+}
+
+.hello {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #00ccff;
+}
+
+.para {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.heropic > img {
+    border-radius: 20%;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0099cc;
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .heropic {
+        display: flex;
+    }
+    .heropic > img {
+        position: relative;
+        top: 50px;
+        left: 10px;
+        min-width: 40%;
+        height: auto;
+        align-self: flex-end;
+    }
+}
