@@ -61,6 +61,7 @@ button:hover {
     }
     .heropic > img {
         position: relative;
+        z-index: -1;
         top: 50px;
         left: 10px;
         min-width: 40%;

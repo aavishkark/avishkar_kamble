@@ -1,0 +1,43 @@
+
+.contactme-header {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-width: 30%;
+    margin: auto;
+}
+
+.contactme-container > .form > input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    height: auto;
+}
+
+.contactme-container > .form > button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contactme-container > .form > button:hover {
+    background-color: #0099cc;
+}
+
+
+  

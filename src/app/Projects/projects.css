@@ -1,0 +1,45 @@
+.projects-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.projects-header {
+    text-align: center;
+}
+
+.project {
+    align-items: center;
+    margin: 20px 0;
+    font-size: 0.8rem;
+}
+h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    text-align: left;
+    margin: 10px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.project-links > a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+}
+

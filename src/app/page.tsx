@@ -3,6 +3,9 @@ import Header from "./Header/page";
 import Footer from "./Footer/page";
 import Hero from "./Hero/page";
 import Skills from "./Skills/page";
+import Projects from "./Projects/page";
+import Github from "./Github/page";
+import ContactMe from "./Contact Me/page";
 
 export default function Home() {
   return (
@@ -10,9 +13,9 @@ export default function Home() {
       <Header />
       <Hero />
       <Skills />
-      <div></div>
-      <div></div>
-      <div></div>
+      <Projects />
+      <Github />
+      <ContactMe />
       <Footer />
     </div>
   );
