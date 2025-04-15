@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./Header/page";
 import Footer from "./Footer/page";
 import Hero from "./Hero/page";
