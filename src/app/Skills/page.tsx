@@ -1,7 +1,7 @@
 import './skills.css';
 export default function Skills() {
     return (
-        <div className="skills-container">
+        <div id='skills' className="skills-container">
             <div className="skills-header">My Skills</div>
             <div className="skills-content">
                 <div className="skill"><div className='skill_image'><img src='https://img.icons8.com/?size=50&id=20909&format=png&color=000000' /></div><span>HTML</span></div>

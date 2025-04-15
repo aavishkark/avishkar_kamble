@@ -26,7 +26,7 @@ export default function Projects() {
     ]
 
     return (
-        <div className="projects-container">
+        <div id='projects' className="projects-container">
             <div className="projects-header">My Projects</div>
             <div className="projects-content">
                 <div className="projects-list">

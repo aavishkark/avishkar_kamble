@@ -5,7 +5,7 @@ import React from 'react';
 export default function Github() {
 
     return (
-        <div className="github-container">
+        <div id='github' className="github-container">
             <div className="github-header">My Github</div>
             <div className="github-content">
                 <img className="github-image" src="https://github-readme-streak-stats.herokuapp.com?user=aavishkark"/>
