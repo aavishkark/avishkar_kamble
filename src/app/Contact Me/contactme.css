@@ -1,6 +1,14 @@
 
-.contactme-header {
+.contactme-container {
     text-align: center;
+    margin-top: 50px;
+}
+
+.contactme-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3194f8;
+    font-weight: bold;
 }
 
 .form {
@@ -36,7 +44,7 @@
 }
 
 .contactme-container > .form > button:hover {
-    background-color: #0099cc;
+    background-color: #3194f8;
 }
 
 
