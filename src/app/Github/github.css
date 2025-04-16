@@ -2,11 +2,15 @@
     width: 80%;
     margin: auto;
     padding: 20px;
+    margin-top: 50px;
 }
 
 .github-header {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 2rem;
+    color: #3194f8;
+    font-weight: bold;
 }
 
 .github-content {

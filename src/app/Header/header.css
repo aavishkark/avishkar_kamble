@@ -3,10 +3,14 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: auto;
     color: rgb(255, 255, 255);
     font-family: 'Arial', sans-serif;
     cursor: pointer;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
  }
 
  .navigation {
@@ -45,6 +49,10 @@
   
   .contactme:hover .contactme-icon {
     transform: rotate(360deg);
+  }
+
+  .contactme-btn{
+    display: flex;
   }
 
   .mobile-view {
@@ -101,14 +109,9 @@
     .ham-menu.enabled {
         position: absolute;
         transition: transform 0.5s ease;
-        transform: translateX(-30%);
+        transform: translateX(-40%);
     }
 
   }
-
-  .contactme-btn{
-    display: flex;
-  }
-
 
 

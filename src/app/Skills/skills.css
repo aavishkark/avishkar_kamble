@@ -4,11 +4,15 @@
     flex-direction: column;
     margin: auto;
     width: 80%;
+    margin-top: 50px;
 }
 
 .skills-header {
-    text-align: center;
+    font-size: 2rem;
     margin-bottom: 20px;
+    color: #3194f8;
+    font-weight: bold;
+    text-align: center;
 }
 .skills-content {
     display: grid;

@@ -5,6 +5,8 @@
     padding: 20px;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    top: 50px;
 }
 .heroinfo {
     display: flex;
@@ -18,7 +20,7 @@
 .name {
     font-size: 1.7rem;
     font-weight: 700;
-    color: #00ccff;
+    color: #3194f8;
 }
 
 .para {
@@ -42,7 +44,7 @@ button{
 }
 
 button:hover {
-    background-color: #0099cc;
+    background-color: #3194f8;
 }
 
 @media (max-width: 768px) {

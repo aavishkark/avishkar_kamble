@@ -42,7 +42,7 @@ export default function Header() {
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#github">Github</a></li>
                             <li><a href="https://drive.google.com/file/d/1QVhmAYFmD_hLpICW_TM_LQBQ0CF60P42/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
-                            <li>Contact Me</li>
+                            <li><a href="#contactme">Contact Me</a></li>
                         </ul>
                     </div>
                 </div>
