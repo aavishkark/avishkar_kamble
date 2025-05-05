@@ -8,14 +8,14 @@ export default function Hero() {
             <div className='heroinfo'>
                 <div className='hello'>Hello,</div>
                 <div>I'm<span className='name'> Avishkar</span></div>
-                <div className='para'>A Fullstack Web Developer With a Strong Passion For Creating Stunning Web Experiences.</div>
+                <div className='para'>Experienced Full Stack Web Developer proficient in React.js and related technologies. Attention to details and effective communication skills combined with solid problem-solving abilities. Mastery of Git for streamlined code management.</div>
                 <div className='resume'>
                     <a href="https://drive.google.com/file/d/1vWdhyJfYFhMgeXtLY72dOiDOC7wL-ebL/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <button className='resume-btn'>Resume</button>
                     </a>
                 </div>
             </div>
-            <div className='heropic'><Image src={profilepic} alt="Logo" width={170} className="logo-image" /></div>
+            <div className='heropic'><Image src={profilepic} alt="Logo" width={180} className="logo-image" /></div>
         </div>
     )
 }
