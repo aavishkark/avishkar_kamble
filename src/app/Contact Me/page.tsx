@@ -1,6 +1,8 @@
 'use client';
 import './contactme.css';
 import React, { useState } from 'react';
+import { useSpring, animated } from '@react-spring/web';
+import { useInView } from 'react-intersection-observer';
 
 export default function ContactMe() {
   const [formData, setFormData] = useState({
@@ -10,6 +12,18 @@ export default function ContactMe() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const { ref, inView } = useInView({
+  triggerOnce: false,
+  threshold: 0.3,
+});
+
+
+  const formAnimation = useSpring({
+    opacity: inView ? 1 : 0,
+    transform: inView ? 'translateY(0)' : 'translateY(50px)',
+    config: { tension: 200, friction: 20 },
+  });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -33,9 +47,7 @@ export default function ContactMe() {
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
 
@@ -55,9 +67,9 @@ export default function ContactMe() {
   };
 
   return (
-    <div id="contactme" className="contactme-container">
+    <div id="contactme" className="contactme-container" ref={ref}>
       <h1 className="contactme-header">Contact Me</h1>
-      <form className="form" onSubmit={handleSubmit}>
+      <animated.form key={inView ? 'visible' : 'hidden'} style={formAnimation} className="form" onSubmit={handleSubmit}>
         <label htmlFor="name">Your Name</label>
         <input
           type="text"
@@ -91,7 +103,7 @@ export default function ContactMe() {
         <button type="submit" className="form-btn" disabled={isSubmitting}>
           {isSubmitting ? 'Sending...' : 'Send'}
         </button>
-      </form>
+      </animated.form>
     </div>
   );
 }
