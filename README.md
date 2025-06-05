@@ -34,7 +34,7 @@ Features :
 ## Project Screenshots
 
 - Landing Page
-<img src="https://i.ibb.co/F589VYG/landingpage.png"  width="600" >
+<a href="https://ibb.co/JwvwMFJC"><img src="https://i.ibb.co/8LrLS4ZX/Screenshot-2025-06-05-155416.png" alt="Screenshot-2025-06-05-155416" border="0"></a>
 
 
 ## Contributor
