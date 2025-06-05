@@ -11,7 +11,7 @@ const skills = [
   { name: 'Redux', img: 'https://img.icons8.com/?size=50&id=jD-fJzVguBmw&format=png&color=000000' },
   { name: 'Node.js', img: 'https://img.icons8.com/?size=50&id=54087&format=png&color=000000' },
   { name: 'Express.js', img: 'https://img.icons8.com/?size=50&id=kg46nzoJrmTR&format=png&color=FF3700' },
-  { name: 'MongoDB', img: 'https://img.icons8.com/?size=50&id=kg46nzoJrmTR&format=png&color=61FF00' },
+  { name: 'MongoDB', img: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png' },
   { name: 'Wordpress', img: 'https://img.icons8.com/?size=50&id=12472&format=png&color=00BDFF' }
 ];
 
