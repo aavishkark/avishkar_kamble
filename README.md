@@ -28,14 +28,6 @@ Features :
 - Navbar
 - Responsive Design
 
- 
- 
-
-## Project Screenshots
-
-- Landing Page
-<a href="https://ibb.co/JwvwMFJC"><img src="https://i.ibb.co/JwvwMFJC/Screenshot-2025-06-05-155416.png" alt="Screenshot-2025-06-05-155416" width="600" border="0"></a>
-
 
 ## Contributor
 - [Avishkar kamble](https://github.com/aavishkark)
