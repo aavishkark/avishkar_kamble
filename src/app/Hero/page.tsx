@@ -26,9 +26,8 @@ export default function Hero() {
                 <div className='hello'>Hello,</div>
                 <div>I'm<span className='name'> Avishkar</span></div>
                 <div className='para'>
-                    Experienced Full Stack Web Developer proficient in React.js and related technologies.
-                    Attention to details and effective communication skills combined with solid problem-solving abilities.
-                    Mastery of Git for streamlined code management.
+                    Experienced Full Stack Web Developer with strong proficiency in React.js and related technologies.
+                     Brings a keen eye for detail, strong communication skills, and a solid problem-solving approach. Skilled in writing clean, maintainable code and managing projects efficiently using Git.
                 </div>
                 <div className='resume'>
                     <a href="https://drive.google.com/file/d/1vWdhyJfYFhMgeXtLY72dOiDOC7wL-ebL/view?usp=sharing" target="_blank" rel="noopener noreferrer">
